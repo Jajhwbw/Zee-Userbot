@@ -47,7 +47,7 @@ load_dotenv("config.env")
 
 LOOP = get_event_loop()
 StartTime = time.time()
-repo = Repo()
+repo = Repo("https://github.com/Jajhwbw/Zee-Userbot")
 branch = repo.active_branch.name
 
 # Global Variables
